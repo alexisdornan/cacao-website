@@ -1,0 +1,13 @@
+img {
+    border-radius: 50%;
+}
+
+.img-circle {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+
+.card {
+    width: 477px;
+}

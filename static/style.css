@@ -1,0 +1,81 @@
+.header {
+    margin: 7px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 58%;
+  margin: auto;
+  padding: 10px;
+  grid-column-gap: 0px;
+}
+
+.image {
+    height: 220px;
+    width: 220px;
+}
+
+.grid-item {
+  padding: 10px;
+}
+
+p {
+    line-height: 10%
+}
+
+.social{
+    float: right;
+    margin: 10px;
+    color: #705321;
+}
+
+.email{
+    float: left;
+    margin: 10px;
+    color: #705321;
+}
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    margin: 7px;
+}
+
+#name {
+    font-size: 450%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.brown1
+{
+    color: #BD9764;
+}
+
+.brown2
+{
+    color: #856842;
+}
+
+.brown3
+{
+    color: #695132;
+}
+
+.brown4
+{
+    color: #523E25;
+}
+
+.contactfooter {
+    margin: 7px;
+    /*position: fixed;*/
+    left: 0;
+    bottom: 0;
+    width: 90%;
+    color: white;
+    text-align: left;
+    padding: 2px;
+}

@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Recipe
+{% endblock %}
+
+{% block main %}
+    <form action="/recipe" method="post">
+        <p>To search through our favorite chocolate recipes, enter a second ingredient!</p>
+        <div class="form-group">
+            <input autocomplete="off" autofocus class="form-control" name="ing" placeholder="Ingredient" type="text"/>
+        </div>
+        <button class="btn btn-primary" type="submit">Enter</button>
+        <br>
+        <br>
+        {% for item in values %}
+        <a href={{item.f2f_url}} target="_blank">{{item.title}}</a>
+        <br>
+        <img src={{item.image_url}} alt="images">
+        <br>
+        <br>
+        {%endfor%}
+
+    </form>
+{% endblock %}
